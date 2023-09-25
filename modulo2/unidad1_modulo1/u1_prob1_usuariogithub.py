@@ -11,10 +11,10 @@ Fecha:25/09/2023
 '''
 
 pan = int(input(3.49))
-
+n= int ("barras vendidas")
 print ("total de barras vendidas")
-
-else pan=$3,49 - 60%:
+n=pan * n 
+while  pan=$3,49 - 60%:
      print(el total es )
      
      
