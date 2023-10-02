@@ -21,4 +21,3 @@ print(
 """)
 numero= int (input())
 
-
