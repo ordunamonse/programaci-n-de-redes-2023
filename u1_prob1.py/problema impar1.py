@@ -32,6 +32,6 @@ else "ingreso" = 5%
 if("es entre 10,000 y 20,000")
 else "ingreso" = 15%
 if("es entre $20,000 y $35,000")
-else "ingreso" =20%
+else "ingreso" = 20%
 
 

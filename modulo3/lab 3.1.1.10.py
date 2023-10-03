@@ -1,3 +1,9 @@
+'''
+nombre:Monserat Orduña Basaldua
+Descripcion: Laboratorio 3.1.1.10
+Fecha:25/09/2023
+'''
+
 planta = input()
 
 if planta == "Espatifilo":
