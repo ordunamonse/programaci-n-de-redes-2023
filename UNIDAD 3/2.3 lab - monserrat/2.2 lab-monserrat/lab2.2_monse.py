@@ -16,3 +16,12 @@ sshCli  = ConnectHandler(
 salida = sshCli.send_command('show ip int brief')
 print(salida)
 
+config_commands = [
+    'int loopback 1', 
+    'ip address 2.2.2.2 255.255.255.0', 
+    'description WHATEVER'
+                  ] 
+
+output = sshCli.send_config_set(config_commands)
+
+
