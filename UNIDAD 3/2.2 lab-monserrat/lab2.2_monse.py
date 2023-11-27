@@ -25,3 +25,17 @@ config_commands = [
 output = sshCli.send_config_set(config_commands)
 
 
+salida_despues = sshCli.send_command('show ip int brief')
+print(salida_despues)
+
+config_commands_loopback2 = [
+    'int loopback 2', 
+    'ip address 3.3.3.3 255.255.255.0', 
+    'description HATEVER'
+]
+
+output_loopback2 = sshCli.send_config_set(config_commands_loopback2)
+
+
+
+
